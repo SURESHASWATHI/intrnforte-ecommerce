@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="category-title"></h1>
+  <div class="filters">
+    <label>Price:
+      <input type="range" id="priceRange" min="0" max="1000" step="50">
+    </label>
+    <span id="priceValue">1000</span>
+  </div>
+  <div id="product-list" class="product-grid"></div>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
